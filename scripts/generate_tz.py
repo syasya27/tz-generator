@@ -51,7 +51,7 @@ for i, row in df.iterrows():
         f.write("\n\n--- VALIDATION ---\n")
         f.write(validation)
 
-print("Готово")
+print("Генерация ТЗ завершена")
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(tz)
